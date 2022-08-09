@@ -1,0 +1,17 @@
+.card{
+  width: 100%;
+  max-width: 18em; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border-radius: 0.2em;
+  padding: 1.3em;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
